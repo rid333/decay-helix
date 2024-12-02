@@ -39,21 +39,23 @@
 "hint" = "blue1"
 
 "ui.background" = {}
-"ui.linenr" = { fg = "bg4" }
+"ui.linenr" = { fg = "gray1" }
 "ui.linenr.selected" = { fg = "yellow1" }
 "ui.cursorline" = { bg = "bg1" }
-"ui.statusline" = { fg = "fg1", bg = "bg1" }
-"ui.statusline.normal" = { fg = "fg1", bg = "bg1" }
-"ui.statusline.insert" = { fg = "fg1", bg = "blue0" }
-"ui.statusline.select" = { fg = "fg1", bg = "orange0" }
-"ui.statusline.inactive" = { fg = "fg4", bg = "bg1" }
+"ui.statusline" = { fg = "fg1", bg = "bg3", modifiers = ["bold"] }
+"ui.statusline.normal" = { fg = "bg1", bg = "yellow1" }
+"ui.statusline.insert" = { fg = "bg1", bg = "yellow1" }
+"ui.statusline.select" = { fg = "bg1", bg = "yellow1" }
+"ui.statusline.inactive" = { fg = "bg1", bg = "yellow1" }
+"ui.bufferline" = { bg = "bg0", modifiers = ["bold"] }
+"ui.bufferline.active" = { fg = "bg1", bg = "yellow1" }
 "ui.popup" = { bg = "bg1" }
 "ui.window" = { bg = "bg1" }
 "ui.help" = { fg = "fg1" }
 "ui.text" = { fg = "fg1" }
 "ui.text.focus" = { fg = "fg1" }
-"ui.selection" = { bg = "bg2" }
-"ui.selection.primary" = { bg = "bg3" }
+"ui.selection" = { bg = "bg3" }
+"ui.selection.primary" = { bg = "bg4" }
 "ui.cursor.primary" = { bg = "fg4", fg = "bg1" }
 "ui.cursor.match" = { bg = "bg3" }
 "ui.menu" = { fg = "fg1", bg = "bg1" }
